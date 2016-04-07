@@ -134,10 +134,16 @@ section h1{
 }
 #portfolio{
     margin-left: 100px;
-    position: center;
 }
 #portfolio img{
     padding: 50px;
     width: 325px;
     height: 300px;
+}
+.footer{
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    height: 80px;
+    float:bottom;
 }
