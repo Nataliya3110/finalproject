@@ -6,27 +6,24 @@
         <link href="css/normalize.css" rel="stylesheet" type="text/css">
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <link rel="icon" type="image/png" sizes="16x16" src="images/favicon.ico">
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <img id="brand" width="80px" height="60px" src="images/brand.png" alt="brand image">
-                <div class=navbar-menu>
-                    <ul>
-                        <li><a class="page-scroll" href="#aboutme">About me</a></li>
-                        <li><a class="page-scroll" href="#skills">Skills</a></li>
-                        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                        <li><a class="page-scroll" href="#">Contact me</a></li>
-                    </ul>
-                </div>
+    <body id="page-wrap">
+        <header class="header">
+            <div class=navbar-menu>
+                <ul>
+                    <li><a class="page-scroll" href="#aboutme">About me</a></li>
+                    <li><a class="page-scroll" href="#skills">Skills</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll" href="#contacts">Contact me</a></li>
+                </ul>
+            </div>
+            <div id="invitation-text">
+                <p><h1>My name is Nataliya Hrabovska</h1>I am Frontend Developer</p>
+                <div><button id="downloadcv">Download my CV</button></div>
             </div>
         </header>
+        <!--
         <main>
+            <!--Social icons
             <div>
                 <ul class="navbar-icons">
                     <li><a href="https://www.facebook.com/natalia.goinyak"><img src="images/facebook.png" alt="Facebook"></a></li>
@@ -34,19 +31,15 @@
                     <li><a href="https://www.linkedin.com/in/natalia-hrabovska-67700744?trk=hp-identity-name"><img src="images/linkedin.png" alt="Linkedin"></a></li>
                 </ul>
             </div>
-            <div id="invitation-text">
-                <p><h1>My name is Nataliya Hrabovska</h1>I am Frontend Developer</p>
-                <div id="invitation-button"><h2>Welcome!</h2></div>
-            </div>
+            
             <section class="section" id="aboutme">
-                <div class="head">About me</div>
+                <div>
                     <img id="myphoto" src="images/myphoto.jpg" alt="My photo">
-                    <div class="mytext">Люблю активний відпочинок та свого вірного улюбленця, яка щодня махаючи хвостом радісно зустрічає мене з роботи.
-                    Люблю бажати всім зранку гарного дня та бачити їхні теплі усмішки.
+                </div>
+                <div class="mytext">Люблю активний відпочинок та свого вірного улюбленця, яка щодня махаючи хвостом радісно зустрічає мене з роботи. Люблю бажати всім зранку гарного дня та бачити їхні теплі усмішки.
                     <br><br>Моя найбільша мрія це "Ukraine in list of low risk countries".</div>
             </section>
-            <section id="skills">
-                <div class="head">My skills</div>
+            <section class="section" id="skills">
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -54,22 +47,21 @@
                     <li>CorelDraw</li>
                 </ul>
             </section>
-            <section id="portfolio">
-                <div class="head">Portfolio</div>
-                <img src="images/project1.png" alt="project1">
-                <img src="images/project2.jpg" alt="project2">
-                <h2>To be continued...</h2>
+            <section class="section" id="portfolio">
+                <div>
+                    <img src="images/project1.png" alt="project1">
+                </div>
+                <div>
+                    <img src="images/project2.jpg" alt="project2">
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <form>
+                	<input type="text" name="Name"/>
+                	<input type="submit" value="Submit"/>
+                </form>
             </section>
         </main>
     <!--1. link jquery 2. links for own java files -->
-    <script src="//code.jquery.com/jquery-2.2.2.min.js"   
-            integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="  
-            crossorigin="anonymous">
-        </script>        
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
-            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
-            crossorigin="anonymous">
-        </script>
-        <script src="js/jquery.easing.min.js"></script>
     </body>
 </html>

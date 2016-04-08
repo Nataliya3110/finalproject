@@ -1,47 +1,37 @@
+html{
+    font-family: Georgia;
+    font-size: 25px;
+}
+#page-wrap{
+    margin:10% 5% 10% 5%;
+    max-width: 1500px;
+}
 body{
-    z-index:5;
     display: flex;
     margin:0 auto;
-    border:0px;
+    border:5px solid;
     padding:0px;
-    max-width: 1920px;
     background-color: #F2F5A9;
 }
-body img .background{
-    z-index: -1;
+.header{
+    background:url('images/background.jpg') no-repeat;
 }
-header{
-    width: 100%;
-    max-width: 1920px;
-    z-index: 5;
-    position: fixed;
-    height: 80px;
-    margin:0 auto;
-    background-color: #D8D8D8;
-    opacity: 0.8;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: block;
-}
-li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#brand{
-    float: left;
-    display: block;
-    margin:0 auto;
-    border:0px;
-    padding-top:10px;
+header div li{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .navbar-menu{
-    float: right;
+    box-sizing: border-box;
     margin:0 auto;
-    border:0px;
-    padding:0px;
-    width: 50%;
+    text-align: center;
+    height: 85px;
+    max-width: 1500px;
+    top:0;
+    left: 0;
+    background-color: #D8D8D8;
+    opacity: 0.8;
+    border:0;
+    position: fixed;
 }
 .navbar-menu li a{
      color: white;
@@ -49,35 +39,16 @@ li{
 .navbar-menu a:link{
     text-decoration: none;
     font-size: 20px;
+    font-family: Georgia;
 }
 .navbar-menu a:hover{
-    color: green;
+    color: black;
 }
-.header li{
+.header div li{
     display: inline-block;
     padding:10;
     border: 20px;
     margin: 0;
-}
-.navbar-icons{
-    position: fixed;
-    border:0;
-    float: left;
-    height: 150px;
-    width: 80px;
-    text-decoration: none;
-    list-style: none;
-    margin-top:80px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.navbar-icons li img{
-    width: 40px;
-    height: 40px;
-}
-.navbar-icons li img:hover{
-    width: 50px;
-    height: 50px;
 }
 #invitation-text{
     margin-top: 80px;
@@ -88,56 +59,13 @@ li{
     font-style: oblique;
     font-weight: 600;
 }
-#invitation-button{
-    padding-top: 20px;
-    padding-left:200px;
-    padding-right:200px;
-}
 .section{
     margin:10px;
     padding: 10px;
 }
 #myphoto{
     margin-left: 100px;
-    width: 250px;
-    height: 325px;
     border-radius: 50px;
 }
-section .head{
-    font-size:50px;
-    text-align:center;
-    background-color:#D8D8D8; 
-    opacity: 0.8;
-    width: 1920;
-}
-#aboutme{
-    margin-left: 100px;
-    padding: 30px;
-    font-style: oblique;
-    font-size: 20px;
-}
-#myphoto{
-    float: left;
-    margin-top: 30px
-}
-.mytext{
-    margin-left: 360px;
-    margin-bottom: 70px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-#skills{
-    margin-left: 100px;
-    height: 300px;
-}
-#skills li{
-    list-style: none;
-}
-#portfolio{
-    margin-left: 100px;
-}
-#portfolio img{
-    padding: 50px;
-    width: 325px;
-    height: 300px;
-}
+
+
