@@ -1,20 +1,20 @@
 html{
     font-family: Georgia;
     font-size: 25px;
-}
-#page-wrap{
-    margin:10% 5% 10% 5%;
-    max-width: 1500px;
+    margin: 0 auto;
 }
 body{
     display: flex;
     margin:0 auto;
     border:5px solid;
     padding:0px;
-    background-color: #F2F5A9;
+}
+#page-wrap{
+    max-width: 1500px;
+    width: 100%;
 }
 .header{
-    background:url('images/background.jpg') no-repeat;
+    width: 100%;
 }
 header div li{
     padding-left: 50px;
@@ -23,11 +23,12 @@ header div li{
 .navbar-menu{
     box-sizing: border-box;
     margin:0 auto;
+    width: 100%;
     text-align: center;
     height: 85px;
-    max-width: 1500px;
     top:0;
     left: 0;
+    position: absolute;
     background-color: #D8D8D8;
     opacity: 0.8;
     border:0;
@@ -51,8 +52,8 @@ header div li{
     margin: 0;
 }
 #invitation-text{
+    background: url(background.jpg)no-repeat;
     margin-top: 80px;
-    margin-left: 80px;
     padding: 150px;
     text-align: center;
     font-family: Georgia; 
@@ -60,6 +61,7 @@ header div li{
     font-weight: 600;
 }
 .section{
+    height: 600px;
     margin:10px;
     padding: 10px;
 }
