@@ -52,7 +52,7 @@ header div li{
     margin: 0;
 }
 #invitation-text{
-    background: url(background.jpg)no-repeat;
+    background: url(images/background.jpg);
     margin-top: 80px;
     padding: 150px;
     text-align: center;
