@@ -1,6 +1,15 @@
+.header {
+    height:920px;
+    background: url("../images/back.jpg") no-repeat;
+}
 html{
     font-family: Georgia;
     font-size: 25px;
+}
+body{
+    top: 0;
+    height: 2500px;
+    background-color: lightgrey;
 }
 #page-wrap{
     max-width: 1500px;
@@ -12,10 +21,9 @@ html{
 }
 div.navbar-menu{
     width: 1500px;
-    margin:0px auto 0px auto;
 }
 .navbar-menu{
-    position: relative;
+    position: static;
     z-index:2;
     top:0;
     left: 0;
@@ -23,14 +31,17 @@ div.navbar-menu{
     height: 85px;
     text-align: center;
     padding:0;
-    background-color: #D8D8D8;
     opacity: 0.8;
+    background-color: #D8D8D8;
+}
+ul{
+    margin-top: 0;
 }
 .header .navbar-menu li{
     display: inline-block;
     border: 20px;
     margin: 0;
-    padding: 0px 5% 0px 5%;
+    padding: 0px 40px 0px 40px;
 }
 .navbar-menu ul li a{
     text-decoration: none;
@@ -49,9 +60,9 @@ div.navbar-menu{
 }
 #invitation-text{
     box-sizing: border-box;
-    position: relative;
+    position: static;
     z-index: 1;
-    top:350px;
+    margin-top:200px;
     border:0;
     width:100%;
     text-align: center;
@@ -78,39 +89,42 @@ button a{
 }
 main{
     box-sizing: border-box;
-    margin-top:535px;
+    height: 1500px;
 }
 clear{
     clear:left;
 }
 #myphoto{
     float:left;
-    margin-left: 100px;
+    margin: 0px 100px;
     border-radius: 50px;
 }
 #aboutme{
-    border:10px solid;
     width: 70%;
     float:left;
-    background-color: #e6e6ff;
+    background-color:  #ccffdd;
+}
+.mytext{
+    margin:100px;
 }
 #skills{
-    border:10px solid;
     width: 70%;
     float:right;
-    background-color:  #ffffcc;
+    background-color:  #ffd9b3;
 }
 #portfolio{
-    border:10px solid;
     width: 70%;
     float:left;
-    background-color: #e6e6ff;
+    display: flex;
+    background-color:  #ccffdd;
+}
+#portfolio img{
+    margin:10px;
 }
 #contacts{
-    border:10px solid;
     width: 70%;
     float:right;
-    background-color:  #ffffcc;
+    background-color: #ffd9b3;
 }
 
 
