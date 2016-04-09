@@ -1,26 +1,22 @@
 html{
     font-family: Georgia;
     font-size: 25px;
-    margin: 0 auto;
 }
 #page-wrap{
-    position: absolute;
     max-width: 1500px;
     width:100%;
     margin:0 auto;
-    text-align: center;
 }
-.header{
-    position: relative;
-    width:100%;
+.background{
+    margin:auto;
 }
 div.navbar-menu{
     width: 1500px;
     margin:0px auto 0px auto;
 }
 .navbar-menu{
+    position: relative;
     z-index:2;
-    position: fixed;
     top:0;
     left: 0;
     width: 100%;
@@ -52,9 +48,10 @@ div.navbar-menu{
     z-index: -1;
 }
 #invitation-text{
+    box-sizing: border-box;
     position: relative;
     z-index: 1;
-    top:400px;
+    top:350px;
     border:0;
     width:100%;
     text-align: center;
@@ -79,16 +76,42 @@ button a{
     text-decoration: none;
     font-size: 20px;
 }
-/*
+main{
+    box-sizing: border-box;
+    margin-top:535px;
+}
+clear{
+    clear:left;
+}
 #myphoto{
+    float:left;
     margin-left: 100px;
     border-radius: 50px;
 }
 #aboutme{
-    background-color: yellow;
+    border:10px solid;
+    width: 70%;
+    float:left;
+    background-color: #e6e6ff;
 }
 #skills{
-    background-color: brown;
+    border:10px solid;
+    width: 70%;
+    float:right;
+    background-color:  #ffffcc;
 }
-*//
+#portfolio{
+    border:10px solid;
+    width: 70%;
+    float:left;
+    background-color: #e6e6ff;
+}
+#contacts{
+    border:10px solid;
+    width: 70%;
+    float:right;
+    background-color:  #ffffcc;
+}
+
+
 

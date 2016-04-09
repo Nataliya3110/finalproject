@@ -7,12 +7,8 @@
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <link rel="icon" type="image/png" sizes="16x16" src="images/favicon.ico">
     <body id="page-wrap">
-        <div class="header">
-            <img class="background" src="images/back.jpg" />
-            <div id="invitation-text">
-                <p><h2>My name is Nataliya Hrabovska</h2>I am Frontend Developer</p>
-                <div class="buuton"><button><a href="files/hrabovskacv.pdf" target="_blank">Download my CV</a></button></div>
-            </div>
+        <img class="background" src="images/back.jpg" />
+        <header class="header">
             <div class="navbar-menu">
                 <ul>
                     <li><a class="page-scroll" href="#aboutme">About me</a></li>
@@ -21,8 +17,11 @@
                     <li><a class="page-scroll" href="#contacts">Contact me</a></li>
                 </ul>
             </div>
-        </div>
-        <!--
+            <div id="invitation-text">
+                <p><h2>My name is Nataliya Hrabovska</h2>I am Frontend Developer</p>
+                <div class="button"><button><a href="files/hrabovskacv.pdf" target="_blank">Download my CV</a></button></div>
+            </div>
+        </header>
         <main>
             <section class="section" id="aboutme">
                 <div>
@@ -31,6 +30,7 @@
                 <div class="mytext">Люблю активний відпочинок та свого вірного улюбленця, яка щодня махаючи хвостом радісно зустрічає мене з роботи. Люблю бажати всім зранку гарного дня та бачити їхні теплі усмішки.
                     <br><br>Моя найбільша мрія це "Ukraine in list of low risk countries".</div>
             </section>
+            <div id="clear"></div>
             <section class="section" id="skills">
                 <ul>
                     <li>HTML</li>
@@ -39,6 +39,7 @@
                     <li>CorelDraw</li>
                 </ul>
             </section>
+            <div id="clear"></div>
             <section class="section" id="portfolio">
                 <div>
                     <img src="images/project1.png" alt="project1">
@@ -47,13 +48,9 @@
                     <img src="images/project2.jpg" alt="project2">
                 </div>
             </section>
+            <div id="clear"></div>
             <section class="section" id="contacts">
-                <form>
-                	<input type="text" name="Name"/>
-                	<input type="submit" value="Submit"/>
-                </form>
             </section>
         </main>
-    1. link jquery 2. links for own java files -->
     </body>
 </html>
